@@ -1,0 +1,11 @@
+selenium==4.45.0
+undetected-chromedriver==3.5.5
+beautifulsoup4==4.15.0
+lxml==6.1.1
+pandas==3.0.3
+numpy==2.5.0
+python-dotenv==1.2.2
+psycopg2-binary==2.9.12
+sqlalchemy==2.0.51
+plotly==6.8.0
+streamlit==1.58.0
