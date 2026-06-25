@@ -235,7 +235,7 @@ Yes, and it's significant. The reverse price calculation in the cleaning pipelin
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-rizalcodes.github.io-0A66C2?style=flat-square)](https://rizalcodes.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-rizalcodes-181717?style=flat-square&logo=github)](https://github.com/rizalcodes)
-[![Twitter/X](https://img.shields.io/badge/X-@ClipXDaily-000000?style=flat-square&logo=x)](https://x.com/ClipXDaily)
+[![Twitter/X](https://img.shields.io/badge/X-@ClipXDaily-000000?style=flat-square&logo=x)](https://x.com/rizalcodes_)
 
 ---
 
