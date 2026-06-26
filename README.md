@@ -47,7 +47,7 @@ The result: a clear, data-backed answer to "which platform actually gives you a 
 
 > Screenshot coming soon.
 
-**Live demo:** [Streamlit Cloud — TBD]
+**Live demo:** [E-Commerce Price War Dashboard](https://ecommerce-price-war-vhor8gqnhrgedkyqeejykx.streamlit.app)
 
 The dashboard features real-time sidebar filtering by platform, price range, brand, and minimum discount — all charts update instantly without re-querying the database.
 
@@ -74,7 +74,7 @@ Scraper (Selenium + BS4)
   Plotly Charts          ← analysis/visualizations.py  →  data/charts/*.html
         │
         ▼
-  Streamlit Dashboard    ← dashboard/app.py
+  Streamlit Dashboard    ← dashboard/pp.py
 ```
 
 ---
