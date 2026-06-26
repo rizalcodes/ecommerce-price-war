@@ -45,7 +45,7 @@ The result: a clear, data-backed answer to "which platform actually gives you a 
 
 ## 📊 Dashboard
 
-> Screenshot coming soon.
+
 
 **Live demo:** [E-Commerce Price War Dashboard](https://ecommerce-price-war-vhor8gqnhrgedkyqeejykx.streamlit.app)
 
