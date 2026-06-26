@@ -16,13 +16,26 @@ load_dotenv(
     dotenv_path=os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
 )
 
-DB_URL = (
-    f"postgresql+psycopg2://{os.getenv('DB_USER', 'postgres')}:"
-    f"{os.getenv('DB_PASSWORD', '')}@"
-    f"{os.getenv('DB_HOST', 'localhost')}:"
-    f"{os.getenv('DB_PORT', '5432')}/"
-    f"{os.getenv('DB_NAME', 'ecommerce_price_war')}"
-)
+
+def _get_db_url() -> str:
+    """Return DB connection URL — st.secrets first, .env fallback."""
+    try:
+        db = st.secrets["database"]
+        return (
+            f"postgresql+psycopg2://{db['user']}:{db['password']}"
+            f"@{db['host']}:{db['port']}/{db['name']}"
+        )
+    except (FileNotFoundError, KeyError):
+        return (
+            f"postgresql+psycopg2://{os.getenv('DB_USER', 'postgres')}:"
+            f"{os.getenv('DB_PASSWORD', '')}@"
+            f"{os.getenv('DB_HOST', 'localhost')}:"
+            f"{os.getenv('DB_PORT', '5432')}/"
+            f"{os.getenv('DB_NAME', 'ecommerce_price_war')}"
+        )
+
+
+DB_URL = _get_db_url()
 
 THEME = "plotly_dark"
 

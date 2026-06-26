@@ -6,3 +6,4 @@ data/raw/*.csv
 data/charts/*.html
 data/eda_results.json
 data/raw/zalora_debug.html
+.streamlit/secrets.toml
